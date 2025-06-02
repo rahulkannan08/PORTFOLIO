@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -36,9 +35,9 @@ const About = () => {
             {/* About Content */}
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                Hello! I'm John Doe
+                Hello! I'm RAHUL K
               </h3>
-              <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
                 I'm a passionate full-stack developer with over 3 years of experience creating 
                 digital solutions that make a difference. I specialize in modern web technologies 
                 and love turning complex problems into simple, beautiful designs.

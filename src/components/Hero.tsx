@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
 
@@ -30,15 +29,15 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white animate-fade-in">
-            <span className="block">John Doe</span>
+            <span className="block">RAHUL K</span>
             <span className="block text-3xl md:text-4xl mt-2 bg-gradient-to-r from-blue-200 to-teal-200 bg-clip-text text-transparent">
               Full Stack Developer
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in delay-300">
-            Crafting exceptional digital experiences with modern technologies. 
-            Passionate about clean code, innovative solutions, and user-centric design.
+            Building innovative digital solutions with cutting-edge technologies.
+            Specializing in modern web development and scalable applications.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in delay-500">

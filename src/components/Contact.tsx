@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Mail, Github, User } from 'lucide-react';
 
@@ -69,7 +68,7 @@ const Contact = () => {
               {/* Contact Links */}
               <div className="space-y-4">
                 <a
-                  href="mailto:john@example.com"
+                  href="mailto:rahul@example.com"
                   className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors duration-300"
                 >
                   <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/50 rounded-lg flex items-center justify-center">
@@ -77,12 +76,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-300">john@example.com</p>
+                    <p className="text-gray-600 dark:text-gray-300">rahul@example.com</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/rahulkannan08"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/30 transition-colors duration-300"
@@ -92,7 +91,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">GitHub</h4>
-                    <p className="text-gray-600 dark:text-gray-300">github.com/johndoe</p>
+                    <p className="text-gray-600 dark:text-gray-300">github.com/rahulkannan08</p>
                   </div>
                 </a>
               </div>
@@ -137,7 +136,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
-                      placeholder="John Doe"
+                      placeholder="RAHUL K"
                     />
                   </div>
                   <div>
@@ -152,7 +151,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
-                      placeholder="john@example.com"
+                      placeholder="rahul@example.com"
                     />
                   </div>
                 </div>

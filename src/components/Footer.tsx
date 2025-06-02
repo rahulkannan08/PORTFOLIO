@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Mail, User } from 'lucide-react';
 
@@ -8,17 +7,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/rahulkannan08',
       label: 'GitHub',
     },
     {
       icon: Mail,
-      href: 'mailto:john@example.com',
+      href: 'mailto:rahul@example.com',
       label: 'Email',
     },
     {
       icon: User,
-      href: 'https://linkedin.com',
+      href: 'https://linkedin.com/in/rahulkannan08',
       label: 'LinkedIn',
     },
   ];
@@ -35,7 +34,7 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="space-y-4">
               <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                DevPortfolio
+                RAHUL's Portfolio
               </div>
               <p className="text-gray-400 leading-relaxed">
                 Passionate full-stack developer creating digital experiences that make a difference. 
@@ -73,7 +72,7 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold">Get In Touch</h3>
               <div className="space-y-2 text-gray-400">
-                <p>john@example.com</p>
+                <p>rahul@example.com</p>
                 <p>Available for freelance projects</p>
               </div>
               
@@ -98,7 +97,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} RAHUL K. All rights reserved.
             </p>
             <button
               onClick={scrollToTop}
