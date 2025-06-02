@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useTheme } from './ThemeProvider';
 import { Moon, Sun, Menu, X } from 'lucide-react';
@@ -12,7 +11,6 @@ const Header = () => {
     { href: '#about', label: 'About' },
     { href: '#skills', label: 'Skills' },
     { href: '#projects', label: 'Projects' },
-    { href: '#testimonials', label: 'Testimonials' },
     { href: '#contact', label: 'Contact' },
   ];
 
