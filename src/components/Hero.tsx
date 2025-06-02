@@ -40,10 +40,7 @@ const Hero = () => {
             Specializing in modern web development and scalable applications.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in delay-500">
-            <button className="px-8 py-4 bg-white text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-xl">
-              View My Work
-            </button>
+          <div className="flex justify-center items-center mb-12 animate-fade-in delay-500">
             <button className="px-8 py-4 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105">
               Download Resume
             </button>
