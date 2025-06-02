@@ -28,17 +28,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image */}
-          <div className="mb-8 relative">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 animate-pulse">
-              <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold">
-                  JD
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white animate-fade-in">
             <span className="block">John Doe</span>
